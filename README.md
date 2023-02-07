@@ -1,2 +1,3 @@
 # odin_recipes
 Intro: This recipe project will be my first project.
+Initiated with The Odin Project guidance and CodeCademy.
