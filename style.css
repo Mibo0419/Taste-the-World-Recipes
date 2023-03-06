@@ -8,9 +8,9 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 20fr));
     grid-gap: 5em 7em;
-    padding: 3em;
+    padding: 7em 7em 7em 7em;
     background-color: rgb(236, 236, 236);
-   
+
 }
 
 
