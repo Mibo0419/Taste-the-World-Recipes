@@ -39,7 +39,7 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(260px, 20fr));
     grid-gap: 5em 7em;
     padding: 7em 10em 7em 5em;
-    background-color: #f8e9ed;
+    background-color: rgb(255, 238, 240);;
 
 }
 
