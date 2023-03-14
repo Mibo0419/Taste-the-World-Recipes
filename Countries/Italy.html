@@ -12,7 +12,7 @@
         var time =  3000;
 
         //image list
-        images[0] = 'cathedral-of-santa-maria-del-fiore.jpg';
+        images[0] = "cathedral-of-santa-maria-del-fiore.jpg";
         images[1] = 'Firenze-Italy.jpg';
         images[2] = 'FlorenceDuomo.jpg';
         images[3] = 'italy-venice-canale-grande.jpg';
@@ -20,15 +20,16 @@
         images[5] = 'milan-where-to-stay-first-time.jpeg';
         images[6] = 'palazzo ducale.jpg';
         images[7] = 'pantheon.jpg';
-        images[8] = 'piaza-san-marco';
-        images[9] = 'trevi-fountain';
+        images[8] = 'piaza-san-marco.jpg';
+        images[9] = 'trevi-fountain.jpg';
         images[10] = 'Tuscany.jpg';
         images[11] = 'vittorio-emanuele-monument.jpg';
         images[12] = 'toscana.jpg';
 
         //function to change image
         function changeImg(){
-            document.slide.src = images[i];
+           // document.section.slide.src = images[i];
+           document.slide.src = images[i];
 
             if(i < images.length - 1){
                 i++; 
@@ -42,7 +43,7 @@
         window.onload = changeImg;
 
     </script>
-    
+
     <header>
         <h1>Italy</h1>
     </header>
@@ -58,7 +59,7 @@
 
         <!--Shuffle image of the colosseum with various cities of italy-->
         <section id="images">
-            <img name="slide" width="400" height="200" >
+            <img name="slide" width="400" height="200">
             <img class="italy-map" src="/Images/Italy/Italy-map.png" alt="Map of Italy">
         </section>
 
