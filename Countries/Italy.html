@@ -4,13 +4,6 @@
     <meta charset="UTF-8">
     <title>Italy Recipes</title>
     <link rel="stylesheet" href="/style_italy.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
 </head>
 <body>
     <script>
@@ -31,7 +24,7 @@
         images[9] = "/Images/Italy/Slideshow/trevi-fountain.jpg";
         images[10] = "/Images/Italy/Slideshow/Tuscany.jpg";
         images[11] = "/Images/Italy/Slideshow/vittorio-emanuele-monument.jpg";
-        images[12] = "/Images/Italy/Slideshow/toscana.jpg";
+        
 
         //function to change image
         function changeImg(){
@@ -56,7 +49,7 @@
     </header>
     <main>
         <section class="intro-section">   
-            <h2>Nicknamed "The Boot"</h2>
+            <h2>Nicknamed "The Boot" or better yet "Eat-aly"</h2>
             <p>Italy is one of the most visited countries in Europe and with
             good reason. From the food to the fashion to the culture, 
             there is so much to see and do in this high-heeled boot 
@@ -65,12 +58,14 @@
         </section> 
 
         <!--Shuffle image of the colosseum with various cities of italy-->
-        <section id="images">
-            <img name="slide" width="400" height="200">
+        <section class="images-section">
+          <div class="moving-wrapper">
+            <img class="italy-map" name="slide" width="400" height="200">
             <img class="italy-map" src="/Images/Italy/Italy-map.png" alt="Map of Italy">
+          </div>
         </section>
 
-        <section>
+        <section class="post-img-section">
             <p>Italy has many great and delicious foods all throughout the country. Select a city
                to see the foods and recipes originating from there.   
             </p>

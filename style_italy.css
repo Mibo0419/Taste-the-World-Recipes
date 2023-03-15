@@ -1,3 +1,7 @@
+main{
+    background-color: #fdf9cf;
+}
+
 
 /* header image */
 header{
@@ -13,14 +17,12 @@ header{
 
 
 /* intro images */
-#colosseum-img{
-    height: 500px;
-    width: 500px;
-}
-
 .italy-map{
     height: 500px;
     width: 500px;
+    display: inline-block;
+    padding: 20px;
+    margin: 5px;
 }
 
 /* grid of italian cities */
@@ -75,3 +77,7 @@ header{
     text-decoration: none;
 }
 
+/* intro section */
+section.intro-section, .post-img-section{
+    padding: 10px;
+}
