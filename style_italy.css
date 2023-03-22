@@ -3,29 +3,30 @@ main{
     background-image: url("Images/Background.jpg");
 }
 
+
 /* testing borders */
 
 main > section.intro-section{
     background-color: rgb(183, 207, 183);
-    border: 10px solid rgb(4, 87, 15);
+    border: 10px solid rgb(4, 87, 15, 0.2);
     margin: 10px 10px 10px 10px;
 }
 
 main > section.images-section{
     background-color: rgb(253, 249, 205);
-    border: 10px solid rgb(255, 238, 0);
+    border: 10px solid rgb(255, 238, 0, 0.2);
     margin: 10px 10px 10px 10px;
 }
 
 main > section.post-img-section{
     background-color: rgb(183, 207, 183);
-    border: 10px solid rgb(4, 87, 15);
+    border: 10px solid rgb(4, 87, 15, 0.2);
     margin: 10px 10px 10px 10px;
 }
 
 main > div.grid-container-cities{
     background-color: rgb(224, 159, 159);
-    border: 10px solid rgb(238, 13, 13);
+    border: 10px solid rgb(238, 13, 13, 0.2);
     margin: 10px 10px 10px 10px;
 }
 
@@ -41,14 +42,18 @@ header{
     background-color: #fdf9cf;
 }
 
-
 /* intro images */
+.moving-wrapper{
+    text-align: center;
+}
+
 .italy-map{
     height: 300px;
     width: 300px;
     display: inline-block;
     padding: 20px;
     margin: 5px;
+    
 }
 
 /* grid of italian cities */
@@ -107,3 +112,5 @@ header{
 section.intro-section, .post-img-section{
     padding: 10px;
 }
+
+/* responsive design using CSS - media */
