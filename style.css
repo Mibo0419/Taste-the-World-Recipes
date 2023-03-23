@@ -8,6 +8,9 @@ body {
 header {
     text-align: center;
     background-color: rgb(255, 219, 225);
+    border: 10px solid rgb(235, 182, 182);
+    margin: 10px 10px 10px 10px;
+
 }
 
 .header h1{
@@ -22,11 +25,17 @@ header {
     text-align: center;
 }
 
+/* borders */
+
+
+
 /* description */
 .description {
     text-align: left;
     background-color: rgb(255, 219, 225);
     padding: 1em 1em 1em 1em;
+    border: 10px solid rgb(250, 243, 243);
+    margin: 10px 10px 10px 10px;
 }
 
 .description p{
@@ -40,7 +49,9 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(260px, 20fr));
     grid-gap: 5em 7em;
     padding: 7em 10em 7em 5em;
-    background-color: rgb(255, 238, 240);;
+    background-color: rgb(255, 219, 225);
+    border: 10px solid rgb(250, 243, 243);
+    margin: 10px 10px 10px 10px;
 
 }
 
