@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 80px 400px 1fr 100px;
+    gap: 10px;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+}
+
+/* header */
+.container header{
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+/* intro description section */
+.container section{
+    padding:10px;
+    border: 1px solid rgb(181, 16, 202);
+}
+
+#intro-desc{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+/* image div */
+div#img-div{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    border: 1px solid rgb(41, 68, 1);
+}
+
+/* mini grid containing recipes of Rome */
+.container div{
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+#mini-grid-container{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+
+
+}
+
+/* footer */
+.container footer{
+    padding: 10px;
+    border: 1px solid rgb(255, 5, 5);
+}
+
+footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
