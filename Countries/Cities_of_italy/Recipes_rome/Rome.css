@@ -13,7 +13,60 @@ body{
     gap: 10px;
     padding: 10px 10px 10px 10px;
     box-sizing: border-box;
+
+    grid-template-areas: 
+        "header header header"
+        "intro-desc img img"
+        "mini-grid mini-grid mini-grid"
+        "footer footer footer"    
+    ;
 }
+
+/* grid areas */
+header{
+    grid-area: header;
+}
+
+section#intro-desc{
+    grid-area: intro-desc;
+}
+
+#img-div{
+    grid-area: img;
+}
+
+div#mini-grid-container{
+    grid-area: mini-grid;
+}
+
+footer{
+    grid-area: footer;
+}
+
+
+@media screen and (max-width: 773px) {
+    .container {
+      grid-template-columns: 1fr;
+      grid-template-rows: 200px 250px 340px auto 100px;
+      grid-template-areas:
+        "header"
+        "intro-desc"
+        "img"
+        "mini-grid"
+        "footer";
+    }
+
+    header{
+        grid-template-columns: 1fr;
+    }
+
+    footer{
+        grid-template-columns: 1fr;
+    }
+
+}
+  
+
 
 /* header */
 .container header{
@@ -22,17 +75,10 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    padding: 0px;
-    margin:0px;
+    margin:10px 10px 10px 10px;
     background-color: #fdf9cf;
 }
 
-header{
-    grid-column-start: 1;
-    grid-column-end: 4;
-
-    
-}
 
 /* intro description section */
 .container section{
@@ -54,11 +100,7 @@ header{
 
 /* image div */
 div#img-div{
-    grid-column-start: 2;
-    grid-column-end: 4;
-    border: 1px solid rgb(41, 68, 1);
-
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
    
@@ -66,6 +108,12 @@ div#img-div{
 
     border: 10px solid rgb(253, 235, 235);
     margin: 10px 10px 10px 10px;
+}
+
+#rome-colosseum{
+    max-width: 100%;
+    max-height: 80%;
+
 }
 
 img{
