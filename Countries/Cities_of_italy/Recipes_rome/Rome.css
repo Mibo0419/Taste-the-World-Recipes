@@ -9,7 +9,7 @@ body{
     display: grid;
 
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 80px 400px 1fr 100px;
+    grid-template-rows: 200px 400px 1fr 100px;
     gap: 10px;
     padding: 10px 10px 10px 10px;
     box-sizing: border-box;
@@ -17,24 +17,39 @@ body{
 
 /* header */
 .container header{
-    padding: 10px;
-    border: 1px solid rgb(0, 0, 0);
+    border: 10px solid rgb(255, 254, 171);
+    background-image: url('../../../Images/Italy/header-italy.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 0px;
+    margin:0px;
+    background-color: #fdf9cf;
 }
 
 header{
     grid-column-start: 1;
     grid-column-end: 4;
+
+    
 }
 
 /* intro description section */
 .container section{
     padding:10px;
-    border: 1px solid rgb(181, 16, 202);
+    overflow: hidden;
 }
 
 #intro-desc{
     grid-column-start: 1;
     grid-column-end: 2;
+
+    border: 10px solid rgb(253, 235, 235);
+    margin: 10px 10px 10px 10px;
+}
+
+#intro-desc p{
+    max-width: 80%;
 }
 
 /* image div */
@@ -42,6 +57,21 @@ div#img-div{
     grid-column-start: 2;
     grid-column-end: 4;
     border: 1px solid rgb(41, 68, 1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    overflow: hidden;
+
+    border: 10px solid rgb(253, 235, 235);
+    margin: 10px 10px 10px 10px;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    max-width: 100%;
 }
 
 /* mini grid containing recipes of Rome */
@@ -51,14 +81,6 @@ div#img-div{
 }
 
 #mini-grid-container{
-    /* grid-column-start: 1;
-    grid-column-end: 4;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 10px;
-    padding: 10px 10px 10px 10px;
-    box-sizing: border-box; */
     display: grid;
     grid-template-columns: repeat(auto-fit, 250px);
     background-color: lightpink;
@@ -121,7 +143,9 @@ h3{
 /* footer */
 .container footer{
     padding: 10px;
-    border: 1px solid rgb(255, 5, 5);
+    
+    border: 10px solid rgb(253, 235, 235);
+    margin: 10px 10px 10px 10px;
 }
 
 footer{
