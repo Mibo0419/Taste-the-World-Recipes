@@ -90,7 +90,7 @@ footer{
     grid-column-start: 1;
     grid-column-end: 2;
 
-    border: 10px solid rgb(253, 235, 235);
+    border: 10px solid rgb(210, 236, 202);
     margin: 10px 10px 10px 10px;
 }
 
@@ -106,7 +106,7 @@ div#img-div{
    
     overflow: hidden;
 
-    border: 10px solid rgb(253, 235, 235);
+    border: 10px solid rgb(235, 198, 198);
     margin: 10px 10px 10px 10px;
 }
 
@@ -125,20 +125,20 @@ img{
 /* mini grid containing recipes of Rome */
 .container div{
     padding: 10px;
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(254, 255, 170);
 }
 
 #mini-grid-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, 250px);
-    background-color: lightpink;
+    background-color: rgb(255, 255, 255);
     column-gap: 30px;
     row-gap: 30px;
     padding: 50px;
     justify-content: center;
 
 
-    border: 10px solid rgb(253, 235, 235);
+    border: 10px solid rgb(255, 252, 205);
     margin: 10px 10px 10px 10px;
 
     grid-column-start: 1;
@@ -192,7 +192,7 @@ h3{
 .container footer{
     padding: 10px;
     
-    border: 10px solid rgb(253, 235, 235);
+    border: 10px solid rgb(210, 236, 202);
     margin: 10px 10px 10px 10px;
 }
 

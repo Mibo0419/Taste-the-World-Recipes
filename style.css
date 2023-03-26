@@ -31,9 +31,9 @@ header {
 /* description */
 .description {
     text-align: left;
-    background-color: rgb(255, 219, 225);
+    background-color: rgb(255, 255, 255);
     padding: 1em 1em 1em 1em;
-    border: 10px solid rgb(250, 243, 243);
+    border: 10px solid rgb(230, 230, 230);
     margin: 10px 10px 10px 10px;
 }
 
@@ -46,14 +46,14 @@ header {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, 250px);
-    background-color: lightpink;
+    background-color: rgb(255, 255, 255);
     column-gap: 30px;
     row-gap: 30px;
     padding: 50px;
     justify-content: center;
 
 
-    border: 10px solid rgb(253, 235, 235);
+    border: 10px solid rgb(255, 219, 225);
     margin: 10px 10px 10px 10px;
   
 
@@ -66,6 +66,7 @@ header {
     height: 150px;
     display: inline;
     position: relative;
+    border: 1px solid black;
 }
 
 h3{
